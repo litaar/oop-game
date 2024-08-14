@@ -35,7 +35,8 @@ while run:
         print("4, ˚୨୧⋆QUIT GAME")
 
         if rules:
-            print("Hi there traveller! feeling lost? not to worry, here are the rules")
+            print("Hi there traveller! feeling lost? not to worry, the rules are quite simple")
+            print("1: Cook, 2: Please your customer: i'm sure you'll figure it out in no time")
             rules = False
             choice = ""
             input("> ")
@@ -55,6 +56,7 @@ while run:
             HP = load_list[1][:-1]
             ATK = load_list[2][:-1]
             print("Welcome back, " + name + "!")
+
         elif choice == "3":
             rules = True
         elif choice == "4":
